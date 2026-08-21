@@ -151,48 +151,67 @@
     return `
       <section class="page-block">
         <h2>AGB</h2>
-        <p>Diese allgemeinen Geschäftsbedingungen regeln das Vertragsverhältnis zwischen Empax und unseren Kundinnen und Kunden.</p>
+        <p>Die nachfolgenden Allgemeinen Geschäftsbedingungen (AGB) regeln die Rechtsverhältnisse zwischen der EMPAX GmbH (nachfolgend "Empax") und ihren Kundinnen und Kunden in der Schweiz.</p>
         <div class="info-card">
-          <h3>1. Leistungsumfang</h3>
-          <p>Die Leistungen werden nach Auftragserteilung und individueller Vereinbarung erbracht.</p>
+          <h3>1. Geltungsbereich</h3>
+          <p>Diese AGB gelten für alle von Empax angebotenen Dienstleistungen, sofern nicht schriftlich etwas anderes vereinbart wurde.</p>
+
           <h3>2. Vertragsabschluss</h3>
-          <p>Der Vertrag kommt mit der Bestätigung durch Empax oder durch Inanspruchnahme der Leistung zustande.</p>
-          <h3>3. Preise</h3>
-          <p>Alle Preise verstehen sich in CHF inkl. der gesetzlichen Mehrwertsteuer, sofern nicht anders angegeben.</p>
-          <h3>4. Zahlung</h3>
-          <p>Zahlungen sind innert der vereinbarten Frist zu leisten. Bei Zahlungsverzug behalten wir uns Mahn- und Verzugszinsen vor.</p>
-          <h3>5. Stornierung</h3>
-          <p>Stornierungen müssen so früh wie möglich gemeldet werden; es können Gebühren anfallen.</p>
-          <h3>6. Umbuchung</h3>
-          <p>Umbuchungen werden nach Verfügbarkeit berücksichtigt und können kostenpflichtig sein.</p>
-          <h3>7. Pflichten der Kundinnen und Kunden</h3>
-          <p>Kundinnen und Kunden verpflichten sich zu einem verantwortungsvollen Verhalten gegenüber Fahrern, Personal und Fahrzeugen.</p>
-          <h3>8. Reinigungsschäden</h3>
-          <p>Für Verschmutzungen und Schäden, die über den üblichen Gebrauch hinausgehen, haftet die Kundin bzw. der Kunde.</p>
-          <h3>9. Spezielle Reinigungsregel</h3>
-          <p>Wer im Fahrzeug erbricht, haftet für anfallende Reinigungs- und Ersatzkosten; diese Kosten sind von der betreffenden Person zu tragen.</p>
-          <h3>10. Mitnahme von Gegenständen</h3>
-          <p>Gegenstände dürfen nur mitgenommen werden, sofern sie sicher verstaut werden können und keine Gefahr darstellen.</p>
-          <h3>11. Haftung</h3>
-          <p>Empax haftet für Schäden nur im gesetzlich zulässigen Umfang und soweit diese durch grobe Fahrlässigkeit oder Vorsatz verursacht wurden.</p>
-          <h3>12. Verspätungen</h3>
-          <p>Verspätungen können in Einzelfällen auftreten; wir informieren über Verzögerungen, sobald möglich.</p>
-          <h3>13. Datenschutz</h3>
-          <p>Personenbezogene Daten werden vertraulich behandelt und nur zur Abwicklung der Leistung verwendet.</p>
-          <h3>14. Verhalten im Fahrzeug</h3>
-          <p>Offene Getränke, gefährliche Gegenstände und Störverhalten sind untersagt. Bei Verstössen kann ein Ausschluss von der Fahrt erfolgen.</p>
-          <h3>15. Haustiere</h3>
-          <p>Haustiere sind nur nach vorheriger Absprache erlaubt und müssen so transportiert werden, dass sie andere Fahrgäste nicht belästigen.</p>
-          <h3>16. Haftung für mitgeführte Sachen</h3>
-          <p>Mitgeführte Gegenstände werden nach bestem Wissen behandelt. Empax übernimmt keine Haftung für Wertgegenstände.</p>
-          <h3>17. Subunternehmer</h3>
-          <p>Empax kann Leistungserbringer zur Vertragserfüllung einsetzen; verantwortlich bleibt Empax.</p>
-          <h3>18. Änderung der AGB</h3>
-          <p>Empax behält sich Änderungen der AGB vor; Kunden werden über wesentliche Änderungen informiert.</p>
-          <h3>19. Anwendbares Recht</h3>
-          <p>Es gilt schweizerisches Recht; Gerichtsstand ist nach Möglichkeit der Sitz von Empax.</p>
-          <h3>20. Salvatorische Klausel</h3>
-          <p>Sollten einzelne Bestimmungen unwirksam sein, berührt dies nicht die Gültigkeit der übrigen Bestimmungen.</p>
+          <p>Ein Vertrag kommt mit der schriftlichen oder elektronischen Auftragsbestätigung durch Empax oder durch die tatsächliche Leistungserbringung zustande.</p>
+
+          <h3>3. Leistungen</h3>
+          <p>Art und Umfang der Leistungen richten sich nach der Leistungsbeschreibung, dem Angebot sowie ergänzenden Vereinbarungen.</p>
+
+          <h3>4. Preise und Kostentragung</h3>
+          <p>Alle Preise verstehen sich in Schweizer Franken (CHF) zuzüglich allfälliger Nebenkosten, sofern nicht anders vereinbart. Kosten für zusätzliche Leistungen werden gesondert berechnet.</p>
+
+          <h3>5. Zahlung und Fälligkeit</h3>
+          <p>Rechnungen sind innerhalb der vereinbarten Frist ohne Abzug zu bezahlen. Bei Verzug werden Verzugszinsen und Mahnkosten in Rechnung gestellt.</p>
+
+          <h3>6. Annullation und Stornierung</h3>
+          <p>Stornierungen sind dem Kundenservice möglichst frühzeitig mitzuteilen. Bei kurzfristigen Stornierungen können Stornogebühren anfallen, deren Höhe sich nach dem Einzelfall richtet.</p>
+
+          <h3>7. Umbuchungen</h3>
+          <p>Umbuchungen werden nach Verfügbarkeit und gegen allenfalls anfallender Gebühr vorgenommen.</p>
+
+          <h3>8. Sonderleistungen und Reinigung</h3>
+          <p>Sonderleistungen und umfangreiche Reinigungen (z. B. nach Verschmutzungen) werden nach effektivem Aufwand verrechnet. Der Kunde ist für grobe Verschmutzungen und Schäden verantwortlich.</p>
+
+          <h3>9. Besondere Reinigungsregel (Erbrechen)</h3>
+          <p>Erbricht eine Person im Fahrzeug, trägt diese Person die durch die Reinigung und allfällige Ersatzleistungen verursachten Kosten. Empax behält sich vor, in solchen Fällen eine angemessene Reinigungsgebühr zu erheben.</p>
+
+          <h3>10. Pflichten der Kundinnen und Kunden</h3>
+          <p>Die Kundin bzw. der Kunde hat Anweisungen des Personals zu befolgen und für die Sicherheit im Fahrzeug Sorge zu tragen. Störendes Verhalten kann zum Ausschluss von Fahrten führen.</p>
+
+          <h3>11. Mitnahme von Gegenständen und Tieren</h3>
+          <p>Die Mitnahme von Gepäck und Tieren ist zulässig, sofern dadurch keine Gefahr oder Belästigung entsteht und die Regeln von Empax eingehalten werden.</p>
+
+          <h3>12. Haftungsbeschränkung</h3>
+          <p>Empax haftet nur für Schäden, die auf grober Fahrlässigkeit oder Vorsatz beruhen. Für leichte Fahrlässigkeit ist die Haftung ausgeschlossen, soweit gesetzlich zulässig.</p>
+
+          <h3>13. Haftung für mitgeführte Sachen</h3>
+          <p>Empax übernimmt keine Haftung für mitgeführte Wertgegenstände, soweit keine besondere Vereinbarung vorliegt.</p>
+
+          <h3>14. Höhere Gewalt</h3>
+          <p>Bei Ereignissen höherer Gewalt (z. B. Streiks, Naturereignisse, behördliche Massnahmen) ist Empax von der Leistungspflicht befreit; bereits erbrachte Teilleistungen sind gesondert zu vergüten.</p>
+
+          <h3>15. Datenschutz</h3>
+          <p>Personenbezogene Daten werden gemäß geltendem Datenschutzrecht verarbeitet und nur zur Vertragserfüllung und Abrechnung genutzt. Details sind in der Datenschutzerklärung geregelt.</p>
+
+          <h3>16. Reklamationen</h3>
+          <p>Reklamationen sind unverzüglich, spätestens jedoch innerhalb von 7 Tagen nach Leistungserbringung schriftlich bei Empax einzureichen.</p>
+
+          <h3>17. Gewährleistung</h3>
+          <p>Offensichtliche Mängel sind sofort, versteckte Mängel nach deren Entdeckung mitzuteilen. Gewährleistungsansprüche richten sich nach den gesetzlichen Bestimmungen.</p>
+
+          <h3>18. Übertragung und Subunternehmer</h3>
+          <p>Empax darf Leistungen ganz oder teilweise durch Subunternehmer erbringen lassen. Rechte und Pflichten aus dem Vertrag bleiben unberührt.</p>
+
+          <h3>19. Änderung der AGB</h3>
+          <p>Empax behält sich vor, diese AGB mit angemessener Frist anzupassen. Wesentliche Änderungen werden den Kunden mitgeteilt.</p>
+
+          <h3>20. Anwendbares Recht und Gerichtsstand</h3>
+          <p>Es gilt schweizerisches Recht. Soweit zulässig, wird als Gerichtsstand der Sitz von Empax vereinbart.</p>
         </div>
       </section>`;
   }
