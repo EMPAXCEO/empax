@@ -62,8 +62,9 @@
 
           <div class="reveal">
             <h2 class="headline-md">Nachricht schreiben</h2>
-            <p class="body-text" style="margin:12px 0 22px">Das Formular öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht.</p>
-            <form class="form" data-mailto-form="info@empax.ch">
+            <p class="body-text" style="margin:12px 0 22px">Wir melden uns so schnell wie möglich bei Ihnen zurück.</p>
+            <form class="form" data-formspree-form action="https://formspree.io/f/xppanjbw" method="POST">
+              <input type="hidden" name="_subject" value="Neue Anfrage über empax.ch">
               <div class="field">
                 <label for="f-name">Name</label>
                 <input id="f-name" name="name" type="text" autocomplete="name" required>
@@ -91,7 +92,7 @@
                 <textarea id="f-msg" name="nachricht" required></textarea>
               </div>
               <button class="btn btn--primary" type="submit">Nachricht senden</button>
-              <p class="form__note">Hinweis: Diese Seite läuft ohne Server. Es werden keine Daten auf der Website gespeichert oder übertragen – die Nachricht wird in Ihrem E-Mail-Programm geöffnet.</p>
+              <p class="form__status" data-form-status role="status" aria-live="polite"></p>
             </form>
           </div>
         </div>

@@ -70,25 +70,46 @@
     el.textContent = String(new Date().getFullYear());
   });
 
-  /* ---- Kontaktformular (statisch, ohne Backend) --------------------------- */
-  var form = document.querySelector("[data-mailto-form]");
+  /* ---- Kontaktformular (Formspree) ----------------------------------------- */
+  var form = document.querySelector("[data-formspree-form]");
   if (form) {
+    var status = form.querySelector("[data-form-status]");
+    var submitBtn = form.querySelector("button[type=submit]");
+
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var data = new FormData(form);
-      var subject =
-        "Anfrage über empax.ch – " + (data.get("thema") || "Allgemein");
-      var body =
-        "Name: " + (data.get("name") || "") + "\n" +
-        "E-Mail: " + (data.get("email") || "") + "\n" +
-        "Telefon: " + (data.get("telefon") || "") + "\n" +
-        "Thema: " + (data.get("thema") || "") + "\n\n" +
-        (data.get("nachricht") || "");
-      var to = form.getAttribute("data-mailto-form");
-      window.location.href =
-        "mailto:" + to +
-        "?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
+      status.textContent = "";
+      status.classList.remove("form__status--ok", "form__status--error");
+      submitBtn.disabled = true;
+
+      fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      })
+        .then(function (response) {
+          if (response.ok) {
+            form.reset();
+            status.textContent = "Danke! Ihre Nachricht wurde gesendet.";
+            status.classList.add("form__status--ok");
+          } else {
+            return response.json().then(function (data) {
+              var message =
+                data && data.errors
+                  ? data.errors.map(function (err) { return err.message; }).join(", ")
+                  : "Da ist leider etwas schiefgelaufen. Bitte versuchen Sie es erneut oder rufen Sie uns an.";
+              throw new Error(message);
+            });
+          }
+        })
+        .catch(function (err) {
+          status.textContent =
+            err.message || "Da ist leider etwas schiefgelaufen. Bitte versuchen Sie es erneut oder rufen Sie uns an.";
+          status.classList.add("form__status--error");
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+        });
     });
   }
 })();

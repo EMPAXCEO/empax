@@ -706,6 +706,9 @@ table.info tr:last-child td { border-bottom: 0; }
   box-shadow: 0 0 0 4px rgba(0, 98, 201, 0.18);
 }
 .form__note { font-size: 13px; color: var(--ink-faint); line-height: 1.5; }
+.form__status { font-size: 14px; font-weight: 600; line-height: 1.5; min-height: 1em; }
+.form__status--ok { color: #1a7f37; }
+.form__status--error { color: #d3232f; }
 
 /* Sichtbare Markierung für noch offene Angaben.
    Ist alles eingetragen: diesen Block löschen. */
