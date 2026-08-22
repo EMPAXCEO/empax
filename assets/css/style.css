@@ -621,7 +621,6 @@ table.info th, table.info td {
 }
 table.info th { font-weight: 600; color: var(--ink); }
 table.info td { color: var(--ink-soft); }
-table.info tr:last-child td { border-bottom: 0; }
 
 /* Akkordeon */
 .faq { max-width: 760px; margin-inline: auto; }
