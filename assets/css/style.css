@@ -759,7 +759,7 @@ table.info tr:last-child td { border-bottom: 0; }
   border-bottom: 1px solid var(--line);
 }
 .footer h4 { font-size: 12px; color: var(--ink); margin-bottom: 12px; }
-.footer li + li { margin-top: 9px; }
+.footer__cols li + li { margin-top: 9px; }
 .footer a { color: var(--ink-soft); }
 .footer a:hover { color: var(--ink); }
 .footer__base {
