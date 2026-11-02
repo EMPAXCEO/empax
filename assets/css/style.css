@@ -188,6 +188,27 @@ ul { margin: 0; padding: 0; list-style: none; }
 .center { text-align: center; }
 .measure { max-width: 720px; margin-inline: auto; }
 
+.location-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
+}
+.location-links a {
+  display: inline-flex;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  font-size: 15px;
+  font-weight: 500;
+}
+.location-links a:hover {
+  background: var(--blue-soft);
+  text-decoration: none;
+}
+
 /* --------------------------------------------------------------------------
    4. Buttons & Links
    -------------------------------------------------------------------------- */
